@@ -116,41 +116,7 @@ This project is ideal for:
 
 📦 Folder Structure
 
-Smart-Environment-Node/
-│
-├── Schematic/
-│   ├── Smart_Node_Schematic.kicad_sch
-│   ├── Smart_Node_Schematic.pdf
-│   ├── Smart_Node_Schematic.kicad_sch-bak
-│
-├── PCB/
-│   ├── Smart_Node_PCB.kicad_pcb
-│   ├── Smart_Node.kicad_pro
-│   ├── Smart_Node_PCB.kicad_prl
-│
-├── Gerber_Files/
-│   ├── F_Cu.gbr
-│   ├── B_Cu.gbr
-│   ├── Edge_Cuts.gbr
-│   ├── Drill.drl
-│   └── ...etc
-│
-├── Firmware/
-│   └── main.ino  or  main.c
-│
-├── Libraries/
-│   ├── COMPONENTS_DOWNLOADED/
-│   └── MY_LIBRARY_MODIFIED.pretty/
-│
-├── Images/
-│   ├── 3D_View.png
-│   ├── Top_Layout.png
-│   ├── Bottom_Layout.png
-│   └── System_Architecture.png
-│
-├── Smart_Env_Monitoring_Node.csv   ← (BOM file)
-├── README.md
-└── .gitignore
+<pre> ``` Smart-Environment-Node/ │ ├── Schematic/ │ ├── Smart_Node_Schematic.kicad_sch │ ├── Smart_Node_Schematic.pdf │ ├── Smart_Node_Schematic.kicad_sch-bak │ ├── PCB/ │ ├── Smart_Node_PCB.kicad_pcb │ ├── Smart_Node.kicad_pro │ ├── Smart_Node_PCB.kicad_prl │ ├── Gerber_Files/ │ ├── F_Cu.gbr │ ├── B_Cu.gbr │ ├── Edge_Cuts.gbr │ ├── Drill.drl │ └── ...etc │ ├── Firmware/ │ └── main.ino or main.c │ ├── Libraries/ │ ├── COMPONENTS_DOWNLOADED/ │ └── MY_LIBRARY_MODIFIED.pretty/ │ ├── Images/ │ ├── 3D_View.png │ ├── Top_Layout.png │ ├── Bottom_Layout.png │ └── System_Architecture.png │ ├── Smart_Env_Monitoring_Node.csv ← (BOM file) ├── README.md └── .gitignore ``` </pre>
 
 
 ---
