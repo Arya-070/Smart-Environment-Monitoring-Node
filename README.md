@@ -66,7 +66,7 @@ This project is ideal for:
 
 ## 🧭 System Architecture
 
-![System Architecture](IMAGES/system_architecture.png)
+![System Architecture](IMAGES/System_Architecture.png)
 
 ---
 
