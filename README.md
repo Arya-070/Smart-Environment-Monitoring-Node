@@ -64,20 +64,25 @@ This project is ideal for:
 
 ---
 
-📐 Schematic Architecture
+## 🧭 System Architecture (Mermaid)
+```graph TD
+    A[🔋 Power Supply<br>(Battery + AMS1117)] --> B[🧠 ESP32-WROOM-32 Core]
 
-┌──────────────┐ ┌─────────────┐
-│ Power Supply │──────▶ ESP32 Core │
-└──────┬───────┘ └─────┬───────┘
-│ ▼
-┌──────▼───────┐ ┌──────────────┐
-│ USB to Serial│◀──▶ │ Auto Upload │
-└──────────────┘ └────┬─────────┘
-▼
-┌────────────────────┐
-│ OLED, BME280, LoRa │
-└────────────────────┘
+    B --> C[🌡️ BME280<br>(Temp, Humidity, Pressure) - I2C]
+    B --> D[📺 OLED Display - I2C]
+    B --> E[📡 SX1262 LoRa Module - SPI]
+    B --> F[🔌 USB to Serial<br>(CH340C with Auto Reset) - UART]
 
+    F --> G[💻 USB Port]
+
+    style A fill:#f2f2f2,stroke:#999,stroke-width:1px
+    style B fill:#d0e6ff,stroke:#377ab5,stroke-width:1px
+    style C fill:#e9ffe9,stroke:#4CAF50,stroke-width:1px
+    style D fill:#fef7e0,stroke:#f4b400,stroke-width:1px
+    style E fill:#fde0dc,stroke:#e53935,stroke-width:1px
+    style F fill:#e0e0e0,stroke:#999,stroke-width:1px
+    style G fill:#fff,stroke:#aaa,stroke-dasharray: 5 5
+```
 ---
 
 🧩 Component Summary
