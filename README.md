@@ -123,6 +123,7 @@ Smart-Environment-Monitoring-Node/
 │   ├── Smart_Env_monitoring_Node.kicad_sch
 │   ├── Smart_Env_monitoring_Node.pdf
 │  
+├── Backup_ZIP
 │
 ├── PCB/
 │   ├──  Smart_Env_monitoring_Node.kicad_pcb
@@ -136,7 +137,7 @@ Smart-Environment-Monitoring-Node/
 │   └── ...etc
 │
 ├── Firmware/
-│   └── main.ino  or  main.c
+│   └── main.ino 
 │
 ├── Libraries/
 │   ├── COMPONENTS_DOWNLOADED/
