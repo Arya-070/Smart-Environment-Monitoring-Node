@@ -117,19 +117,18 @@ This project is ideal for:
 📦 Folder Structure
 
 ```
-Smart-Environment-Node/
+Smart-Environment-Monitoring-Node/
 │
-├── Schematic/
-│   ├── Smart_Node_Schematic.kicad_sch
-│   ├── Smart_Node_Schematic.pdf
-│   ├── Smart_Node_Schematic.kicad_sch-bak
+├── SCHEMATIC/
+│   ├── Smart_Env_monitoring_Node.kicad_sch
+│   ├── Smart_Env_monitoring_Node.pdf
+│  
 │
 ├── PCB/
-│   ├── Smart_Node_PCB.kicad_pcb
-│   ├── Smart_Node.kicad_pro
-│   ├── Smart_Node_PCB.kicad_prl
-│
-├── Gerber_Files/
+│   ├──  Smart_Env_monitoring_Node.kicad_pcb
+│   ├──  Smart_Env_monitoring_Node.kicad_pro
+│   ├──  Smart_Env_monitoring_Node.csv
+│   ├── Gerber_Files/
 │   ├── F_Cu.gbr
 │   ├── B_Cu.gbr
 │   ├── Edge_Cuts.gbr
@@ -149,7 +148,6 @@ Smart-Environment-Node/
 │   ├── Bottom_Layout.png
 │   └── System_Architecture.png
 │
-├── Smart_Env_Monitoring_Node.csv   ← (BOM file)
 ├── README.md
 └── .gitignore
 ```
