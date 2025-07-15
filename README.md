@@ -27,25 +27,28 @@ All hardware is designed on a **custom 2-layer PCB** and powered via a **USB Mic
 
 ## 📌 GPIO Pinout & Connections
 
-| GPIO Pin | Connected To        | Function / Role              |
-|----------|---------------------|------------------------------|
-| **GPIO 0**   | Q2 (Transistor)        | BOOT (Auto Upload via DTR)    |
-| **GPIO 1 (TXD)** | CH340C RXD           | UART Transmission             |
-| **GPIO 3 (RXD)** | CH340C TXD           | UART Reception                |
-| **GPIO 4**   | SX1262 NSS             | SPI Chip Select (LoRa)       |
-| **GPIO 5**   | SX1262 BUSY            | LoRa Busy Status             |
-| **GPIO 14**  | SX1262 SCK             | SPI Clock                    |
-| **GPIO 18**  | SX1262 MISO            | SPI MISO                     |
-| **GPIO 19**  | SX1262 MOSI            | SPI MOSI                     |
-| **GPIO 21**  | OLED SDA               | I2C Data (Display)           |
-| **GPIO 22**  | OLED SCL               | I2C Clock (Display)          |
-| **GPIO EN**  | Q1 (Transistor)        | EN (Auto Reset via RTS)      |
-| **GPIO 23**  | SX1262 DIO1            | LoRa Interrupt               |
-| **GPIO 16**  | SX1262 DIO2            | LoRa General-Purpose I/O     |
-| **GPIO 17**  | BME280 SCK             | SPI Clock (Sensor)           |
-| **GPIO 2**   | LED (Optional)         | Debug LED Output             |
-| **GPIO 13**  | SX1262 NSS             | SPI Slave Select (LoRa)      |
-| **GPIO 12, 15** | (Free or Reserved)     | Available for future use     |
+## 🧠 ESP32 GPIO Pinout & Connections
+
+| GPIO Pin   | Connected To              | Function / Role                     |
+|------------|---------------------------|--------------------------------------|
+| GPIO 0     | Q2 (Transistor)           | BOOT (Auto Upload via DTR)          |
+| GPIO 1 (TXD)| CH340C RXD               | UART Transmission                    |
+| GPIO 3 (RXD)| CH340C TXD               | UART Reception                       |
+| GPIO 4     | SX1262 NSS                | SPI Chip Select (LoRa)              |
+| GPIO 5     | SX1262 BUSY               | LoRa Busy Status                    |
+| GPIO 14    | SX1262 SCK                | SPI Clock                           |
+| GPIO 18    | SX1262 MISO               | SPI MISO                            |
+| GPIO 19    | SX1262 MOSI               | SPI MOSI                            |
+| GPIO 21    | OLED SDA                  | I2C Data (Display)                  |
+| GPIO 22    | OLED SCL                  | I2C Clock (Display)                 |
+| GPIO EN    | Q1 (Transistor)           | EN (Auto Reset via RTS)             |
+| GPIO 23    | SX1262 DIO1               | LoRa Interrupt                      |
+| GPIO 16    | SX1262 DIO2               | LoRa General-Purpose I/O            |
+| GPIO 17    | BME280 SCK                | SPI Clock (Sensor)                  |
+| GPIO 2     | LED (Optional)            | Debug LED Output                    |
+| GPIO 13    | SX1262 NSS (2nd)          | SPI Slave Select (Alt, Unused?)     |
+| GPIO 12,15 | —                         | Reserved / Available for future use |
+
 
 🔍 *See schematic for exact net labels and detailed mapping.*
 
