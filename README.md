@@ -25,9 +25,7 @@ All hardware is designed on a **custom 2-layer PCB** and powered via a **USB Mic
 
 ---
 
-## 📌 GPIO Pinout & Connections
-
-## 🧠 ESP32 GPIO Pinout & Connections
+## 📌  ESP32 GPIO Pinout & Connections 
 
 | GPIO Pin   | Connected To              | Function / Role                     |
 |------------|---------------------------|--------------------------------------|
