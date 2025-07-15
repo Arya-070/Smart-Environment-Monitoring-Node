@@ -1,4 +1,4 @@
-### 🌿 Smart Environment Monitoring Node  
+#🌿 Smart Environment Monitoring Node  
 📡 ESP32-WROOM-32 + LoRa + BME280 + OLED | USB Powered | Custom PCB
 
 ──────────────────────────────────────────────
