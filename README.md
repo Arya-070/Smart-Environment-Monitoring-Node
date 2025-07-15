@@ -11,7 +11,7 @@ All hardware is designed on a **custom 2-layer PCB** and powered via a **USB Mic
 
 ---
 
-# ✨ Project Highlights
+## ✨ Project Highlights
 
 • 🔧 Fully custom-designed PCB (2-layer) using KiCad  
 • 📡 Long-range LoRa communication using SX1262  
@@ -51,7 +51,7 @@ All hardware is designed on a **custom 2-layer PCB** and powered via a **USB Mic
 
 ---
 
-🔍 Use Case Acknowledgement
+## 🔍 Use Case Acknowledgement
 
 This project is ideal for:
 
@@ -70,7 +70,7 @@ This project is ideal for:
 
 ---
 
-🧩 Component Summary
+## 🧩 Component Summary
 
 | No. | Component              | Interface | Description                                  |
 |-----|------------------------|-----------|----------------------------------------------|
@@ -92,7 +92,7 @@ This project is ideal for:
 
 ---
 
-💾 Firmware Summary
+## 💾 Firmware Summary
 
 • Platform: Arduino Framework  
 • Libraries:
@@ -105,7 +105,7 @@ This project is ideal for:
 
 ---
 
-🧪 Test Points
+## 🧪 Test Points
 
 | Label | Connected To | Use                      |
 |-------|--------------|---------------------------|
@@ -114,7 +114,7 @@ This project is ideal for:
 
 ---
 
-📦 Folder Structure
+## 📦 Folder Structure
 
 ```
 Smart-Environment-Monitoring-Node/
@@ -156,7 +156,7 @@ Smart-Environment-Monitoring-Node/
 
 ---
 
-📐 PCB Design Summary
+## 📐 PCB Design Summary
 
 • Software: KiCad 7.0  
 • Layers: 2 (Top & Bottom)  
@@ -168,7 +168,7 @@ Smart-Environment-Monitoring-Node/
 
 ---
 
-📌 Optional Headers
+## 📌 Optional Headers
 
 | Header     | Size | Description                    |
 |------------|------|--------------------------------|
@@ -178,7 +178,7 @@ Smart-Environment-Monitoring-Node/
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 • Add onboard Li-ion battery charging (TP4056)  
 • Use low-dropout regulator instead of AMS1117  
@@ -189,20 +189,20 @@ Smart-Environment-Monitoring-Node/
 
 ---
 
-📜 License
+## 📜 License
 
 Licensed under the MIT License.  
 Feel free to use, modify, and share — just give credit. 
 
 ---
 
-🤝 Acknowledgements
+## 🤝 Acknowledgements
 
 This project is inspired by real-world smart sensing requirements and open hardware communities. Thanks to Espressif Systems, Adafruit, and the KiCad team for empowering makers with tools and documentation.
 
 ---
 
-📬 Contact / Contribution
+## 📬 Contact / Contribution
 
 • Found something useful? Leave a ⭐ on GitHub.  
 • Found a bug or want to improve? Fork and PRs are welcome.  
