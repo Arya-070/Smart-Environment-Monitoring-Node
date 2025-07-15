@@ -1,9 +1,9 @@
-🌿 Smart Environment Monitoring Node  
+### 🌿 Smart Environment Monitoring Node  
 📡 ESP32-WROOM-32 + LoRa + BME280 + OLED | USB Powered | Custom PCB
 
 ──────────────────────────────────────────────
 
-📌 Overview
+## 📌 Overview
 
 This project is a compact, power-efficient, and long-range **environment monitoring system** based on the **ESP32-WROOM-32 chip**. It measures temperature, humidity, and pressure using the **BME280 sensor**, displays real-time values on a **0.96” OLED display**, and transmits the data via **LoRa SX1262** for remote monitoring.  
 
@@ -11,7 +11,7 @@ All hardware is designed on a **custom 2-layer PCB** and powered via a **USB Mic
 
 ---
 
-✨ Project Highlights
+# ✨ Project Highlights
 
 • 🔧 Fully custom-designed PCB (2-layer) using KiCad  
 • 📡 Long-range LoRa communication using SX1262  
